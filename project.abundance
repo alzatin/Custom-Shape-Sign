@@ -20,18 +20,15 @@
     },
     {
       "name": "Margin",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 20
     },
     {
       "name": "RouterBitSize",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 3
     },
     {
       "name": "GCPasses",
-      "ioValue": 2,
-      "currentEquation": "2"
+      "ioValue": 2
     },
     {
       "name": "Font",
@@ -396,7 +393,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.7359999999999999,
       "uniqueID": "id-1938",
       "name": "Font",
       "type": "array",
@@ -412,7 +409,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.9279999999999998,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2271",
       "name": "Screw_holes",
       "type": "boolean"
@@ -431,6 +428,22 @@
       ],
       "readMeText": "Inputs: - Text { the string of text you want to appear on the sign} - Font_Size { your desired font size} - ply-thickness {the wood thickness you want to cut the sign from} - Margin {the margin you want the text to have from its border} - RouterBitSize {the bit size you want to cut with} - GC passes {number of gcode passes} - 2D shape {alternative shapes for your sign} - Font {available font options for your text} ",
       "global": true
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.33753148614609574,
+      "y": 0.8066465256797584,
+      "uniqueID": "id-2593",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -748,33 +761,17 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Extrude",
-      "x": 0.33753148614609574,
-      "y": 0.8066465256797584,
-      "uniqueID": "id-2593",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.7371601208459214,
-      "uniqueID": "id-2597",
+      "y": 0.9279999999999998,
+      "uniqueID": "id-2706",
       "name": "SVG_Sign_Shape",
       "type": "import",
-      "fileName": "stand_svg.svg",
-      "fileType": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Custom-Shape-Sign",
-      "SVGwidth": 400
+      "fileName": null,
+      "fileType": null,
+      "repoOwner": null,
+      "repoName": null,
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
@@ -924,6 +921,11 @@
       "ap2ID": "id-928"
     },
     {
+      "ap2Name": "shape",
+      "ap1ID": "id-2593",
+      "ap2ID": "id-1727"
+    },
+    {
       "ap2Name": "defaultShape",
       "ap1ID": "id-906",
       "ap2ID": "id-1727"
@@ -934,13 +936,8 @@
       "ap2ID": "id-1326"
     },
     {
-      "ap2Name": "shape",
-      "ap1ID": "id-2593",
-      "ap2ID": "id-1727"
-    },
-    {
       "ap2Name": "geometry",
-      "ap1ID": "id-2597",
+      "ap1ID": "id-2706",
       "ap2ID": "id-2593"
     }
   ],
