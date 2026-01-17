@@ -2,6 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|New Item|2|$0.00||
-|#6 Screw|2|$0.00||
-|Total: |4|$0.00| |
+|Total: |0|$0.00| |
