@@ -440,10 +440,10 @@
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
-      "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
+      "fileName": "SVG_units_inches _notlogged_copy5.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
       "SVGwidth": 1
     },
     {
@@ -769,10 +769,6 @@
       "name": "Scale",
       "ioValues": [
         {
-          "name": "Geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
           "name": "Scale Factor",
           "ioValue": 249.5849629375
         }
@@ -816,10 +812,6 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -868,6 +860,18 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Import",
+      "x": 0.36141533277169335,
+      "y": 0.824773413897281,
+      "uniqueID": "id-3058",
+      "fileName": "adidas_copy1.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
