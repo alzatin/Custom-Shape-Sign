@@ -436,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.836858006042296,
+      "y": 0.8489425981873111,
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
@@ -812,10 +812,6 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
