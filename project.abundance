@@ -389,7 +389,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.7522658610271903,
+      "y": 0.7359999999999999,
       "uniqueID": "id-1938",
       "name": "Font",
       "type": "array",
@@ -436,14 +436,14 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8549848942598186,
+      "y": 0.8640483383685801,
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
-      "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
+      "fileName": "SVG_units_inches _notlogged_copy5.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
       "SVGwidth": 1
     },
     {
@@ -775,8 +775,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3201347935973041,
-      "y": 0.5981873111782477,
+      "x": 0.2813816343723673,
+      "y": 0.7069486404833837,
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
@@ -824,10 +824,6 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
