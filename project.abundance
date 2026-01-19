@@ -436,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.8851963746223566,
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
@@ -445,6 +445,18 @@
       "repoOwner": "alzatin",
       "repoName": "Custom-Shape-Sign",
       "SVGwidth": 1
+    },
+    {
+      "atomType": "Import",
+      "x": 0.36141533277169335,
+      "y": 0.824773413897281,
+      "uniqueID": "id-3058",
+      "fileName": "adidas_copy1.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
+      "SVGwidth": 10
     },
     {
       "atomType": "GitHubMolecule",
@@ -812,6 +824,10 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -860,18 +876,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Import",
-      "x": 0.36141533277169335,
-      "y": 0.824773413897281,
-      "uniqueID": "id-3058",
-      "fileName": "adidas_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Custom-Shape-Sign",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
