@@ -440,8 +440,8 @@
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": null,
-      "fileType": null,
+      "fileName": "SVG_units_inches _notlogged.svg",
+      "fileType": "SVG",
       "repoOwner": null,
       "repoName": null,
       "SVGwidth": 1
@@ -775,15 +775,11 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.2813816343723673,
-      "y": 0.7069486404833837,
+      "x": 0.2805391743892165,
+      "y": 0.6646525679758308,
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
-        {
-          "name": "Geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
         {
           "name": "Scale Factor",
           "ioValue": 249.5849629375
