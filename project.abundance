@@ -12,16 +12,18 @@
     },
     {
       "name": "Font_Size",
-      "ioValue": 40
+      "ioValue": 40,
+      "currentEquation": "40"
     },
     {
       "name": "ply_thickness",
-      "ioValue": 14
+      "ioValue": 14,
+      "currentEquation": "14"
     },
     {
       "name": "Margin",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 40,
+      "currentEquation": "40"
     },
     {
       "name": "RouterBitSize",
@@ -118,7 +120,7 @@
         },
         {
           "name": "margin",
-          "ioValue": 30
+          "ioValue": 40
         }
       ],
       "codeVersion": 1,
@@ -140,7 +142,7 @@
         },
         {
           "name": "margin",
-          "ioValue": 30
+          "ioValue": 40
         }
       ],
       "codeVersion": 1,
@@ -162,7 +164,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -15.195313500000001
+          "ioValue": -15.195313499999997
         },
         {
           "name": "zDist",
@@ -225,11 +227,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 336.11328325
+          "ioValue": 346.11328325
         },
         {
           "name": "y",
-          "ioValue": 30
+          "ioValue": 40
         }
       ],
       "currentEquation": "-x/2 + y/2"
@@ -243,11 +245,11 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 60.390627
+          "ioValue": 70.390627
         },
         {
           "name": "x",
-          "ioValue": 30
+          "ioValue": 40
         }
       ],
       "currentEquation": "-y/2 + x/2"
@@ -383,7 +385,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 336.11328325
+          "ioValue": 346.11328325
         }
       ]
     },
@@ -437,7 +439,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.8429003021148036,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
@@ -468,11 +470,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 336.11328325
+          "ioValue": 346.11328325
         },
         {
           "name": "length",
-          "ioValue": 60.390627
+          "ioValue": 70.390627
         },
         {
           "name": "radius",
@@ -509,7 +511,7 @@
             },
             {
               "name": "width",
-              "ioValue": 336.11328325
+              "ioValue": 346.11328325
             },
             {
               "name": "rad",
@@ -517,7 +519,7 @@
             },
             {
               "name": "length",
-              "ioValue": 60.390627
+              "ioValue": 70.390627
             }
           ],
           "codeVersion": 1,
@@ -783,7 +785,7 @@
       "ioValues": [
         {
           "name": "Scale Factor",
-          "ioValue": 336.11328325
+          "ioValue": 346.11328325
         }
       ],
       "topLevel": false,
@@ -824,7 +826,11 @@
           "ioValues": [
             {
               "name": "scaleFactor",
-              "ioValue": 336.11328325
+              "ioValue": 346.11328325
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
