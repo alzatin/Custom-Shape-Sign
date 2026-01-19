@@ -8,7 +8,7 @@
 
  Project Dimensions
 
-**Value:** Width: 249.58487310355474, Height: 249.58487310355474
+**Value:** Width: 336.1132915757196, Height: 335.98124936963353
 
 Inputs: - Text { the string of text you want to appear on the sign} - Font_Size { your desired font size} - ply-thickness {the wood thickness you want to cut the sign from} - Margin {the margin you want the text to have from its border} - RouterBitSize {the bit size you want to cut with} - GC passes {number of gcode passes} - 2D shape {alternative shapes for your sign} - Font {available font options for your text} 
 
