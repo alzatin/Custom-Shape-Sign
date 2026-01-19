@@ -12,8 +12,7 @@
     },
     {
       "name": "Font_Size",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 30
     },
     {
       "name": "ply_thickness",
@@ -437,14 +436,14 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8731117824773413,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
+      "fileName": "Dog_silhouette.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
       "SVGwidth": 1
     },
     {
@@ -825,6 +824,10 @@
             {
               "name": "scaleFactor",
               "ioValue": 269.5849629375
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
