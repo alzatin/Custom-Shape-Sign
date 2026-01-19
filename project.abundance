@@ -434,6 +434,19 @@
       ]
     },
     {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.8319999999999999,
+      "uniqueID": "id-2940",
+      "name": "SVG_Sign_Shape",
+      "type": "import",
+      "fileName": "SVG_units_inches _notlogged_copy1.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
+      "SVGwidth": 1
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.635600335852225,
       "y": 0.22356495468277945,
@@ -750,15 +763,11 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.25189553496208933,
-      "y": 0.8610271903323262,
+      "x": 0.24852569502948607,
+      "y": 0.8700906344410876,
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
-        {
-          "name": "Geometry",
-          "ioValue": 10
-        },
         {
           "name": "Scale Factor",
           "ioValue": 249.5849629375
@@ -803,10 +812,6 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": 10
             }
           ],
           "codeVersion": 1,
@@ -855,19 +860,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.8319999999999999,
-      "uniqueID": "id-2940",
-      "name": "SVG_Sign_Shape",
-      "type": "import",
-      "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
@@ -1027,6 +1019,11 @@
       "ap2ID": "id-1727"
     },
     {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-2940",
+      "ap2ID": "id-2822"
+    },
+    {
       "ap2Name": "defaultShape",
       "ap1ID": "id-906",
       "ap2ID": "id-1727"
@@ -1040,11 +1037,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-2822",
       "ap2ID": "id-2593"
-    },
-    {
-      "ap2Name": "Geometry",
-      "ap1ID": "id-2940",
-      "ap2ID": "id-2822"
     }
   ],
   "unitsKey": "MM",
