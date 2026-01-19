@@ -171,8 +171,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2793333333333333,
-      "y": 0.6525679758308157,
+      "x": 0.2822240943555181,
+      "y": 0.4199395770392749,
       "uniqueID": "id-962",
       "ioValues": [
         {
@@ -436,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8429003021148036,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
@@ -763,11 +763,15 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.3176074136478517,
-      "y": 0.8610271903323262,
+      "x": 0.3201347935973041,
+      "y": 0.5981873111782477,
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
+        {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "Scale Factor",
           "ioValue": 249.5849629375
