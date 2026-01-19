@@ -73,7 +73,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.5045317220543807,
+      "y": 0.525679758308157,
       "uniqueID": "id-924",
       "name": "ply_thickness"
     },
@@ -436,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.22960725075528698,
+      "y": 0.1933534743202417,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
