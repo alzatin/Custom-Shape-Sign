@@ -436,14 +436,14 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8640483383685801,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2940",
       "name": "SVG_Sign_Shape",
       "type": "import",
-      "fileName": "SVG_units_inches _notlogged_copy5.svg",
-      "fileType": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Custom-Shape-Sign",
+      "fileName": null,
+      "fileType": null,
+      "repoOwner": null,
+      "repoName": null,
       "SVGwidth": 1
     },
     {
@@ -824,6 +824,10 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
