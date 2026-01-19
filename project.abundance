@@ -824,10 +824,6 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
