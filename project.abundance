@@ -440,10 +440,10 @@
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": "Dog_silhouette.svg",
-      "fileType": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Custom-Shape-Sign",
+      "fileName": null,
+      "fileType": null,
+      "repoOwner": null,
+      "repoName": null,
       "SVGwidth": 1
     },
     {
