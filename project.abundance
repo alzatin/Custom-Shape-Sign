@@ -431,8 +431,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.33753148614609574,
-      "y": 0.8066465256797584,
+      "x": 0.3917438921651222,
+      "y": 0.8489425981873111,
       "uniqueID": "id-2593",
       "ioValues": [
         {
@@ -444,6 +444,19 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0264,
+      "y": 0.9184290030211479,
+      "uniqueID": "id-2706",
+      "name": "SVG_Sign_Shape",
+      "type": "import",
+      "fileName": "SVG_units_inches (1)_copy2.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
+      "SVGwidth": 500
     },
     {
       "atomType": "GitHubMolecule",
@@ -761,17 +774,114 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.9279999999999998,
-      "uniqueID": "id-2706",
-      "name": "SVG_Sign_Shape",
-      "type": "import",
+      "atomType": "Import",
+      "x": 0.17523167649536647,
+      "y": 0.7371601208459214,
+      "uniqueID": "id-2815",
       "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
+      "name": "Import",
+      "type": null,
       "SVGwidth": 10
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.25189553496208933,
+      "y": 0.8610271903323262,
+      "uniqueID": "id-2822",
+      "name": "Scale",
+      "ioValues": [
+        {
+          "name": "Scale Factor",
+          "ioValue": 364.37744340625
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-2818",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.16,
+          "uniqueID": "id-2819",
+          "name": "Geometry",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0264,
+          "y": 0.256,
+          "uniqueID": "id-2820",
+          "name": "Scale Factor",
+          "type": "number"
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4226190476190476,
+          "y": 0.25139664804469275,
+          "uniqueID": "id-2821",
+          "ioValues": [
+            {
+              "name": "scaleFactor",
+              "ioValue": 364.37744340625
+            }
+          ],
+          "codeVersion": 1,
+          "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "inputShape",
+          "ap1ID": "id-2819",
+          "ap2ID": "id-2821"
+        },
+        {
+          "ap2Name": "scaleFactor",
+          "ap1ID": "id-2820",
+          "ap2ID": "id-2821"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2821",
+          "ap2ID": "id-2818"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-01-19T18:23:39.288Z",
+        "privateRepo": false,
+        "repoName": "Scale",
+        "dateCreated": "2025-06-26T17:06:11Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "4b6bc40a-44a9-438a-9ed9-ba4910815d8d",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Scale",
+        "topics": [],
+        "parentRepo": null,
+        "forks": 1,
+        "dateModified": "739428",
+        "ranking": 3.8,
+        "searchField": "scale barboursmith scales the input 2d or 3d geometry by the scale factor ",
+        "owner": "BarbourSmith",
+        "description": "Scales the input 2D or 3D geometry by the scale factor",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Scale/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Unitless",
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -824,6 +934,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-939",
       "ap2ID": "id-1827"
+    },
+    {
+      "ap2Name": "Scale Factor",
+      "ap1ID": "id-939",
+      "ap2ID": "id-2822"
     },
     {
       "ap2Name": "length",
@@ -926,6 +1041,11 @@
       "ap2ID": "id-1727"
     },
     {
+      "ap2Name": "Geometry",
+      "ap1ID": "id-2706",
+      "ap2ID": "id-2822"
+    },
+    {
       "ap2Name": "defaultShape",
       "ap1ID": "id-906",
       "ap2ID": "id-1727"
@@ -937,7 +1057,7 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-2706",
+      "ap1ID": "id-2822",
       "ap2ID": "id-2593"
     }
   ],
