@@ -12,7 +12,7 @@
     },
     {
       "name": "Font_Size",
-      "ioValue": 45
+      "ioValue": 30
     },
     {
       "name": "ply_thickness",
@@ -34,10 +34,6 @@
       "name": "Font",
       "ioValue": "ROBOTO",
       "currentEquation": "ROBOTO"
-    },
-    {
-      "name": "Screw_holes",
-      "ioValue": 10
     },
     {
       "name": "SVG_Sign_Shape",
@@ -89,7 +85,7 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 45
+          "ioValue": 30
         },
         {
           "name": "Text",
@@ -161,11 +157,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -172.188721703125
+          "ioValue": -114.79248146875
         },
         {
           "name": "yDist",
-          "ioValue": -17.094727562499997
+          "ioValue": -11.396485375000001
         },
         {
           "name": "zDist",
@@ -228,7 +224,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 364.37744340625
+          "ioValue": 249.5849629375
         },
         {
           "name": "y",
@@ -246,7 +242,7 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 54.189455124999995
+          "ioValue": 42.79297075
         },
         {
           "name": "x",
@@ -386,7 +382,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 364.37744340625
+          "ioValue": 249.5849629375
         }
       ]
     },
@@ -405,14 +401,6 @@
         "NOTOSANS",
         "GREAT_VIBES"
       ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.0264,
-      "y": 0.8319999999999999,
-      "uniqueID": "id-2271",
-      "name": "Screw_holes",
-      "type": "boolean"
     },
     {
       "atomType": "Readme",
@@ -448,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.9184290030211479,
+      "y": 0.8277945619335348,
       "uniqueID": "id-2706",
       "name": "SVG_Sign_Shape",
       "type": "import",
@@ -456,7 +444,7 @@
       "fileType": "SVG",
       "repoOwner": "alzatin",
       "repoName": "Custom-Shape-Sign",
-      "SVGwidth": 500
+      "SVGwidth": 1
     },
     {
       "atomType": "GitHubMolecule",
@@ -467,11 +455,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 364.37744340625
+          "ioValue": 249.5849629375
         },
         {
           "name": "length",
-          "ioValue": 54.189455124999995
+          "ioValue": 42.79297075
         },
         {
           "name": "radius",
@@ -508,7 +496,7 @@
             },
             {
               "name": "width",
-              "ioValue": 364.37744340625
+              "ioValue": 249.5849629375
             },
             {
               "name": "rad",
@@ -516,7 +504,7 @@
             },
             {
               "name": "length",
-              "ioValue": 54.189455124999995
+              "ioValue": 42.79297075
             }
           ],
           "codeVersion": 1,
@@ -774,16 +762,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Import",
-      "x": 0.17523167649536647,
-      "y": 0.7371601208459214,
-      "uniqueID": "id-2815",
-      "fileName": null,
-      "name": "Import",
-      "type": null,
-      "SVGwidth": 10
-    },
-    {
       "atomType": "GitHubMolecule",
       "x": 0.25189553496208933,
       "y": 0.8610271903323262,
@@ -792,7 +770,7 @@
       "ioValues": [
         {
           "name": "Scale Factor",
-          "ioValue": 364.37744340625
+          "ioValue": 249.5849629375
         }
       ],
       "topLevel": false,
@@ -833,7 +811,11 @@
           "ioValues": [
             {
               "name": "scaleFactor",
-              "ioValue": 364.37744340625
+              "ioValue": 249.5849629375
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
