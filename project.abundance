@@ -36,7 +36,7 @@
       "currentEquation": "ROBOTO"
     },
     {
-      "name": "SVG_Sign_Shape",
+      "name": "SVG_shape",
       "ioValue": "__GEOMETRY_INPUT__"
     }
   ],
@@ -436,9 +436,9 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.836858006042296,
       "uniqueID": "id-2940",
-      "name": "SVG_Sign_Shape",
+      "name": "SVG_shape",
       "type": "import",
       "fileName": null,
       "fileType": null,
@@ -781,6 +781,10 @@
       "name": "Scale",
       "ioValues": [
         {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "Scale Factor",
           "ioValue": 249.5849629375
         }
@@ -824,6 +828,10 @@
             {
               "name": "scaleFactor",
               "ioValue": 249.5849629375
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
