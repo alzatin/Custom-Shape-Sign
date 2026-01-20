@@ -12,7 +12,7 @@
     },
     {
       "name": "Font_Size",
-      "ioValue": 30
+      "ioValue": 29
     },
     {
       "name": "ply_thickness",
@@ -85,7 +85,7 @@
       "ioValues": [
         {
           "name": "Font Size",
-          "ioValue": 30
+          "ioValue": 29
         },
         {
           "name": "Text",
@@ -157,11 +157,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -114.79248146875
+          "ioValue": -110.966065453125
         },
         {
           "name": "yDist",
-          "ioValue": -11.396485375000001
+          "ioValue": -11.016602562500001
         },
         {
           "name": "zDist",
@@ -224,7 +224,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 268.5849629375
+          "ioValue": 260.93213090625
         },
         {
           "name": "y",
@@ -242,7 +242,7 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 61.79297075
+          "ioValue": 61.033205125
         },
         {
           "name": "x",
@@ -382,7 +382,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 268.5849629375
+          "ioValue": 260.93213090625
         }
       ]
     },
@@ -436,14 +436,14 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8319999999999999,
+      "y": 0.8429003021148036,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": null,
-      "fileType": null,
-      "repoOwner": null,
-      "repoName": null,
+      "fileName": "Dog_silhouette.svg",
+      "fileType": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Custom-Shape-Sign",
       "SVGwidth": 1
     },
     {
@@ -467,11 +467,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 268.5849629375
+          "ioValue": 260.93213090625
         },
         {
           "name": "length",
-          "ioValue": 61.79297075
+          "ioValue": 61.033205125
         },
         {
           "name": "radius",
@@ -508,7 +508,7 @@
             },
             {
               "name": "width",
-              "ioValue": 268.5849629375
+              "ioValue": 260.93213090625
             },
             {
               "name": "rad",
@@ -516,7 +516,7 @@
             },
             {
               "name": "length",
-              "ioValue": 61.79297075
+              "ioValue": 61.033205125
             }
           ],
           "codeVersion": 1,
@@ -781,12 +781,8 @@
       "name": "Scale",
       "ioValues": [
         {
-          "name": "Geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
           "name": "Scale Factor",
-          "ioValue": 268.5849629375
+          "ioValue": 260.93213090625
         }
       ],
       "topLevel": false,
@@ -827,11 +823,7 @@
           "ioValues": [
             {
               "name": "scaleFactor",
-              "ioValue": 268.5849629375
-            },
-            {
-              "name": "inputShape",
-              "ioValue": "__GEOMETRY_INPUT__"
+              "ioValue": 260.93213090625
             }
           ],
           "codeVersion": 1,
