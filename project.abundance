@@ -436,11 +436,11 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8429003021148036,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": "Dog_silhouette.svg",
+      "fileName": "Dog_silhouette_copy1.svg",
       "fileType": "SVG",
       "repoOwner": "alzatin",
       "repoName": "Custom-Shape-Sign",
@@ -824,6 +824,10 @@
             {
               "name": "scaleFactor",
               "ioValue": 260.93213090625
+            },
+            {
+              "name": "inputShape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
