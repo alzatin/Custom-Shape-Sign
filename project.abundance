@@ -20,7 +20,8 @@
     },
     {
       "name": "Margin",
-      "ioValue": 39
+      "ioValue": 200,
+      "currentEquation": "200"
     },
     {
       "name": "RouterBitSize",
@@ -117,7 +118,7 @@
         },
         {
           "name": "margin",
-          "ioValue": 39
+          "ioValue": 200
         }
       ],
       "codeVersion": 1,
@@ -139,7 +140,7 @@
         },
         {
           "name": "margin",
-          "ioValue": 39
+          "ioValue": 200
         }
       ],
       "codeVersion": 1,
@@ -161,7 +162,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -11.016602562500001
+          "ioValue": -11.016602562499997
         },
         {
           "name": "zDist",
@@ -224,11 +225,11 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 260.93213090625
+          "ioValue": 421.93213090625
         },
         {
           "name": "y",
-          "ioValue": 39
+          "ioValue": 200
         }
       ],
       "currentEquation": "-x/2 + y/2"
@@ -242,11 +243,11 @@
       "ioValues": [
         {
           "name": "y",
-          "ioValue": 61.033205125
+          "ioValue": 222.033205125
         },
         {
           "name": "x",
-          "ioValue": 39
+          "ioValue": 200
         }
       ],
       "currentEquation": "-y/2 + x/2"
@@ -382,7 +383,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 260.93213090625
+          "ioValue": 421.93213090625
         }
       ]
     },
@@ -467,11 +468,11 @@
       "ioValues": [
         {
           "name": "width",
-          "ioValue": 260.93213090625
+          "ioValue": 421.93213090625
         },
         {
           "name": "length",
-          "ioValue": 61.033205125
+          "ioValue": 222.033205125
         },
         {
           "name": "radius",
@@ -508,7 +509,7 @@
             },
             {
               "name": "width",
-              "ioValue": 260.93213090625
+              "ioValue": 421.93213090625
             },
             {
               "name": "rad",
@@ -516,7 +517,7 @@
             },
             {
               "name": "length",
-              "ioValue": 61.033205125
+              "ioValue": 222.033205125
             }
           ],
           "codeVersion": 1,
@@ -782,7 +783,7 @@
       "ioValues": [
         {
           "name": "Scale Factor",
-          "ioValue": 260.93213090625
+          "ioValue": 421.93213090625
         }
       ],
       "topLevel": false,
@@ -823,7 +824,7 @@
           "ioValues": [
             {
               "name": "scaleFactor",
-              "ioValue": 260.93213090625
+              "ioValue": 421.93213090625
             },
             {
               "name": "inputShape",
