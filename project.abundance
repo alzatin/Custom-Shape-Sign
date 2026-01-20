@@ -781,6 +781,10 @@
       "name": "Scale",
       "ioValues": [
         {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "Scale Factor",
           "ioValue": 268.5849629375
         }
