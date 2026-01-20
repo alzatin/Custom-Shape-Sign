@@ -436,7 +436,7 @@
     {
       "atomType": "Input",
       "x": 0.0264,
-      "y": 0.8277945619335348,
+      "y": 0.8319999999999999,
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
@@ -780,6 +780,10 @@
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
+        {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "Scale Factor",
           "ioValue": 477.341002
