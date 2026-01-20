@@ -440,7 +440,7 @@
       "uniqueID": "id-2940",
       "name": "SVG_shape",
       "type": "import",
-      "fileName": "Dog_silhouette_copy1.svg",
+      "fileName": "SVG_units_inches _notlogged.svg",
       "fileType": "SVG",
       "repoOwner": "alzatin",
       "repoName": "Custom-Shape-Sign",
@@ -775,8 +775,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.27726809378185524,
-      "y": 0.6888217522658611,
+      "x": 0.26299694189602446,
+      "y": 0.7522658610271903,
       "uniqueID": "id-2822",
       "name": "Scale",
       "ioValues": [
